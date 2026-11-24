@@ -210,6 +210,8 @@ git push -u origin main
 7. Deploy to Streamlit Community Cloud
 Open Streamlit Community Cloud 
 Sign in with your GitHub account. - https://share.streamlit.io/
+https://share.streamlit.io/user/jacinthachandrikat
+
 Follow these steps:
 1. Click Create app.(authedicate)
 
@@ -223,8 +225,12 @@ https://myagent1.streamlit.app/
 
 ------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------
+GirHub URL:
 https://github.com/JacinthaChandrikaT/jc_myagent/settings
-https://github.com/JacinthaChandrikaT/jc_myagent/settings
+https://github.com/JacinthaChandrikaT/jc_myagent/blob/main/app.py
+
+
+sttreamlit url: - https://share.streamlit.io/user/jacinthachandrikat
 
 deployed url - https://myagent1.streamlit.app/
 

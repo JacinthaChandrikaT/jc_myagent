@@ -19,10 +19,10 @@ if question:
     with st.chat_message("user"):
         st.write(question)
 
-    #answer = ask_agent(question)
+    answer = ask_agent(question)
 
     with st.chat_message("assistant"):
-        #st.write(answer)
-        model = joblib.load("my_model.joblib")
-        answer = model.predict([question])[0]
         st.write(answer)
+        # model = joblib.load("my_model.joblib")
+        # answer = model.predict([question])[0]
+        # st.write(answer)
