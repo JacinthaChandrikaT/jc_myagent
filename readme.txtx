@@ -184,7 +184,50 @@ git push origin main
 Streamlit Community Cloud normally detects the GitHub changes 
 and updates your deployed application.
 ------------------------------------------------------------------------------------------
+1. Open GitHub — Create a new repository.
+Enter the repository name: jc_myagent
+Select private (provided your code has no secrets).
+Do not initialize it with 
+a README or .gitignore, because you already have a local Git project.
+Click Create repository.
+
+2.  Update the existing remote
+Instead of git remote add origin, use:
+git remote set-url origin https://github.com/JacinthaChandrikaT/jc_myagent
+
+Verify:
+--------
+git remote -v
+
+Push your Python AI Agent to GitHub:
+-----------------------------------
+git add .
+git commit -m "Deploy Python AI Agent"
+git branch -M main
+git push -u origin main
+------------------------------------------------------------------------------------------
+
+7. Deploy to Streamlit Community Cloud
+Open Streamlit Community Cloud 
+Sign in with your GitHub account. - https://share.streamlit.io/
+Follow these steps:
+1. Click Create app.(authedicate)
+
+2. Select the GitHub repository containing your AI Agent.(afetr making public under settingS)
+3. Select the main branch.
+4. Set the main file path to app.py.
+5. Choose an available app URL.[myagent1.streamlit.app]
+6. Click Deploy.
+------------------------------------------------------------------------------------------
+https://myagent1.streamlit.app/
+
 ------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------
+https://github.com/JacinthaChandrikaT/jc_myagent/settings
+https://github.com/JacinthaChandrikaT/jc_myagent/settings
+
+deployed url - https://myagent1.streamlit.app/
+
+Streamlit community cloud :
+----------------------------
+https://share.streamlit.io/?utm_source=chatgpt.com
